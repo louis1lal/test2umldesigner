@@ -3,5 +3,20 @@
   <packagedElement xmi:type="uml:Class" xmi:id="_ZxJWgIJtEeaB0eLGFGPJyQ" name="Class1"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_bBY2YIJtEeaB0eLGFGPJyQ" name="Class2">
     <generalization xmi:id="_d2R_4IJtEeaB0eLGFGPJyQ" general="_ZxJWgIJtEeaB0eLGFGPJyQ"/>
+    <ownedAttribute xmi:id="_kWM0MIJuEeaB0eLGFGPJyQ" name="test1" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kWNbQIJuEeaB0eLGFGPJyQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kWNbQYJuEeaB0eLGFGPJyQ" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_pbGRcIJuEeaB0eLGFGPJyQ" name="Class3"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_quKb0IJuEeaB0eLGFGPJyQ" memberEnd="_quKb0YJuEeaB0eLGFGPJyQ _quKb1IJuEeaB0eLGFGPJyQ" navigableOwnedEnd="_quKb0YJuEeaB0eLGFGPJyQ _quKb1IJuEeaB0eLGFGPJyQ">
+    <ownedEnd xmi:id="_quKb0YJuEeaB0eLGFGPJyQ" name="class3s" type="_pbGRcIJuEeaB0eLGFGPJyQ" association="_quKb0IJuEeaB0eLGFGPJyQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_quKb0oJuEeaB0eLGFGPJyQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_quKb04JuEeaB0eLGFGPJyQ" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_quKb1IJuEeaB0eLGFGPJyQ" name="class2s" type="_bBY2YIJtEeaB0eLGFGPJyQ" association="_quKb0IJuEeaB0eLGFGPJyQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_quKb1YJuEeaB0eLGFGPJyQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_quKb1oJuEeaB0eLGFGPJyQ" value="*"/>
+    </ownedEnd>
   </packagedElement>
 </uml:Model>
